@@ -1,4 +1,4 @@
-FROM alpine:3.8 as base
+FROM arm32v6/alpine as base
 LABEL maintainer="Denys Zhdanov <denis.zhdanov@gmail.com>"
 
 RUN true \
